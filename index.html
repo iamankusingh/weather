@@ -9,50 +9,58 @@
   </head>
 
   <body>
-    <div class="card">
-      <div class="search">
-        <input
-          type="text"
-          name="text"
-          id=""
-          placeholder="Enter city name"
-          spellcheck="false"
-        />
-        <button><img src="images/search.png" alt="" /></button>
-      </div>
+    <div class="search">
+      <input
+        type="text"
+        name="text"
+        placeholder="Enter city name"
+        spellcheck="false"
+      />
+      <button type="button">
+        <img src="images/search.png" alt="search" />
+      </button>
+    </div>
 
-      <div class="error">
-        <p>Invalid City name</p>
-      </div>
+    <div class="loading">
+      <p>Getting Info...</p>
+    </div>
+    <div class="error">
+      <p>Invalid City name</p>
+    </div>
 
-      <div class="weather">
-        <img src="images/clear.png" alt="" class="weather-icon" />
-        <h1 class="temp">22 <sup>o</sup>C</h1>
-        <h2 class="city">Delhi</h2>
+    <div class="weather">
+      <img
+        src="images/clear.png"
+        alt="weather-icon"
+        width="170"
+        height="170"
+        class="weather-icon"
+      />
+      <h1 class="temp"><sup></sup></h1>
+      <h2 class="city"></h2>
 
-        <div class="details">
-          <div class="col">
-            <img src="images/humidity.png" alt="" />
-            <div>
-              <p class="humidity">50%</p>
-              <p>Humidity</p>
-            </div>
+      <div class="details">
+        <div class="col">
+          <img src="images/humidity.png" alt="weather-humidity" />
+          <div>
+            <p class="humidity"></p>
+            <p>Humidity</p>
           </div>
+        </div>
 
-          <div class="col">
-            <img src="images/wind.png" alt="" />
-            <div>
-              <p class="wind">15 km/h</p>
-              <p>Wind Speed</p>
-            </div>
+        <div class="col">
+          <img src="images/wind.png" alt="weather-wind" />
+          <div>
+            <p class="wind"></p>
+            <p>Wind Speed</p>
           </div>
         </div>
       </div>
 
       <footer>
         <p>
-          &copy<a href="https://www.instagram.com/iamankusingh" target="blank"
-            >Anku Singh</a
+          <a href="https://www.instagram.com/iamankusingh" target="_blank">
+            &copyAnku Singh</a
           >
         </p>
       </footer>
