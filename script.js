@@ -1,6 +1,6 @@
 // https://api.openweathermap.org/data/2.5/weather?q=delhi&appid=91588b569e10538682e21bafd21148a9&units=metric
 
-const apiKey = "91588b569e10538682e21bafd21148a9";
+const apiKey = "yourApiKey";
 const apiUrl =
   "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=";
 
